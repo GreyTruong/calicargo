@@ -229,11 +229,7 @@ CREATE TABLE `ship_transaction` (
 `report_type`  varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL ,
 `report_lang`  varchar(20) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL COMMENT 'EN or VI' ,
 `date_added`  int(10) NULL DEFAULT NULL ,
-PRIMARY KEY (`ship_transaction_id`),
-FOREIGN KEY (`min_order_id`) REFERENCES `ship_order` (`ship_order_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-FOREIGN KEY (`max_order_id`) REFERENCES `ship_order` (`ship_order_id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-INDEX `min_order_id` (`min_order_id`) USING BTREE ,
-INDEX `max_order_id` (`max_order_id`) USING BTREE 
+PRIMARY KEY (`ship_transaction_id`)
 )
 ENGINE=InnoDB
 DEFAULT CHARACTER SET=latin1 COLLATE=latin1_swedish_ci
