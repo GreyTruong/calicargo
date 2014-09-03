@@ -1,0 +1,12 @@
+div.k-nopad-right{
+  padding-right: 0;
+}
+div.k-nopad-left{
+  padding-left: 0;
+}
+.k-add-btn{
+	font-size: 1.5em;
+}
+.k-add-btn a{
+	 color: #109164 !important;
+}
