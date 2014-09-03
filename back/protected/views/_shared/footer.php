@@ -11,6 +11,7 @@
   <script src="<?php echo HelperUrl::baseUrl()?>js/angular-resource.min.js"></script>
   <script src="<?php echo HelperUrl::baseUrl()?>js/angular-sanitize.min.js"></script>
   <script src="<?php echo HelperUrl::baseUrl()?>js/angular-ui.js"></script>
+  <script src="<?php echo HelperUrl::baseUrl()?>js/dir-pagination.js"></script>
   <!-- App -->
   <script src="<?php echo HelperUrl::baseUrl()?>js/service.js"></script>
   <script type="text/javascript">

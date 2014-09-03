@@ -5,7 +5,17 @@
       	<!--this module_title can be changed in app.config (placed in footer.php)-->
         <h3 class="m-b-none">{{module_title}}</h3>
       </div>
-      
+      <ul class="pagination" ng-show="numOfPage > 1">
+        <li>
+            <a ng-show="currentPage <= 0" href="#">&laquo;</a>
+            <a ng-show="currentPage > 0" ng-click="currentPage=currentPage-1" href="#">&laquo;</a>
+        </li>
+        <li ng-class="{active:(p==currentPage+1)}" ng-repeat="p in pages"><a ng-click="" href="#">{{p}}</a></li>
+        <li>
+            <a ng-show="currentPage >= numOfPage - 1" href="#">&raquo;</a>
+            <a ng-show="currentPage < numOfPage - 1" ng-click="currentPage=currentPage+1" href="#">&raquo;</a>
+        </li>
+      </ul>
       <section class="panel panel-default">
         <header class="panel-heading">
           {{module_title}}
@@ -17,7 +27,7 @@
               <tr>              	
                 <th ng-repeat="c in columns">{{c}}</th>
               </tr>
-              <tr ng-repeat = "o in orders">              
+              <tr  ng-repeat = "o in orders | startFrom:currentPage*pageSize | limitTo:pageSize">              
               	<td>{{o.ship_order_id}}</td>
               	<td>{{o.order_type}}</td>
               	<td>{{o.ship_type}}</td>
