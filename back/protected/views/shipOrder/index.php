@@ -5,6 +5,7 @@
       	<!--this module_title can be changed in app.config (placed in footer.php)-->
         <h3 class="m-b-none">{{module_title}}</h3>
       </div>
+      
       <section class="panel panel-default">
         <header class="panel-heading">
           {{module_title}}

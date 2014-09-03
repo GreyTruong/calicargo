@@ -126,27 +126,25 @@ class ShipOrderController extends Controller
     }
 
     public function actionCheck_reported(){
-        if(!$_POST){
+        $data = NULL;
+        $data = json_decode(file_get_contents('php://input'));
+        if($data == NULL || $data->from ==null || $data->to == null){
             return;
         }
-        if(isset($_POST['info']) && $_POST['info'] != NULL)
-        {
-            $from = $_POST['info']['from_ship_id'];           
-            $to = $_POST['info']['to_ship_id'];
-            $arr = $this->ShipOrderModel->is_reported($from, $to);
-            if($arr!=NULL && count($arr > 0)){
-                $warning = "ID(s) ";
-                foreach ($arr as $a) {
-                    $warning .= '['.$a.']';
-                    $warning .= " ";
-                }
-                $warning .= "have been reported. Do you want to report the ID(s) again?";
-                echo $warning;
-            }            
-            else{
-                echo "false";
+        $from = $data->from;
+        $to = $data->to;
+        $arr = $this->ShipOrderModel->is_reported($from, $to);
+        if($arr!=NULL && count($arr > 0)){
+            $warning = "ID(s) ";
+            foreach ($arr as $a) {
+                $warning .= '['.$a.']';
+                $warning .= " ";
             }
-        }
+            $warning .= "have been reported. Do you want to report the ID(s) again?";
+            echo $warning;
+            return;
+        }            
+        echo "";
     }
 
     public function actionReport_layout(){

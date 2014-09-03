@@ -374,6 +374,20 @@ app.provider("order", function () {
                 });                
                 return deferred.promise;                
             },
+            //check reported ids
+            check_reported: function(from, to) {
+                //async helper - return the value AFTER $http request is DONE
+                var deferred = $q.defer();
+                //call ShipOrderController::actionCheck_reported
+                $http({
+                    url: $rootScope.baseUrl + "shipOrder/check_reported",
+                    method: "POST",
+                    data: {from : from, to : to},
+                }).success(function(result){
+                    deferred.resolve(result);
+                });                
+                return deferred.promise;                
+            },
             //get view order title - can be set in app.config (placed in footer.php)
             view_orders_title: this.view_orders_title,
             //get columns for shipping order table (just for displaying the columns in view)
@@ -434,6 +448,7 @@ app.service('modalService', ['$modal', '$rootScope', function ($modal, $rootScop
         };
 
         var modalOptions = {
+            alert : false,
             closeButtonText: 'Close',
             actionButtonText: 'OK',
             headerText: 'Proceed?',
@@ -474,4 +489,58 @@ app.service('modalService', ['$modal', '$rootScope', function ($modal, $rootScop
 
 }]);
 
-
+/****** number filter ******
+/*
+Usage: <input type='text' only-digits min-num="0" max-num="10" /> (only integer from 0-10 allowed)
+Or:    <input type='text' only-digits allow-decimal='true' /> (to enable float number inputs)
+Or:    <input type='text' only-digits allow-negative='true' /> (to enable negative number inputs)
+*/
+app.directive("onlyDigits", function ()
+{
+    return {
+        restrict: 'EA',
+        require: '?ngModel',
+        scope:{
+            allowDecimal: '@',
+            allowNegative: '@',
+            minNum: '@',
+            maxNum: '@'
+        },
+        link: function (scope, element, attrs, ngModel)
+        {
+            if (!ngModel) return;
+            ngModel.$parsers.unshift(function (inputValue)
+            {
+                var isDecimal = false;
+                var digits = inputValue.split('').filter(function (s,i)
+                {
+                    var b = (!isNaN(s) && s != ' ');
+                    if (!b && attrs.allowDecimal && attrs.allowDecimal == "true")
+                    {
+                        if (s == "." && isDecimal == false)
+                        {
+                            isDecimal = true;
+                            b = true;
+                        }
+                    }
+                    if (!b && attrs.allowNegative && attrs.allowNegative == "true")
+                    {
+                        b = (s == '-' && i == 0);
+                    }
+                    return b;
+                }).join('');
+                if (attrs.maxNum && !isNaN(attrs.maxNum) && parseFloat(digits) > parseFloat(attrs.maxNum))
+                {
+                    digits = attrs.maxNum;
+                }
+                if (attrs.minNum && !isNaN(attrs.minNum) && parseFloat(digits) < parseFloat(attrs.minNum))
+                {
+                    digits = attrs.minNum;
+                }
+                ngModel.$viewValue = digits;
+                ngModel.$render();
+                return digits;
+            });
+        }
+    };
+});
