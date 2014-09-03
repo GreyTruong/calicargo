@@ -266,7 +266,7 @@
                       placeholder="Fee/lbs">
                     </div>
                     <div class="col-xs-3">
-                      <input type="text" only-digits ng-model="thisItem.ship_discount" class="form-control" 
+                      <input type="text" only-digits min="0" max="99" ng-model="thisItem.ship_discount" class="form-control" 
                       ng-change="updateOrder()" id="ship_discount" name="ship_discount" 
                       placeholder="Discount">
                     </div>              
