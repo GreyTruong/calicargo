@@ -14,6 +14,7 @@ class ShipOrderController extends Controller
     //view all orders
 	public function actionIndex($order_type = "all", $ship_type = "all", $p = 1)
 	{
+        $this->CheckPermission();
 		$ppp = Yii::app()->getParams()->itemAt('ppp');
 		$args = array();
 		if($order_type != "all")
@@ -36,11 +37,13 @@ class ShipOrderController extends Controller
 
     public function actionGet_orders(){
         // if(!$_POST) return;
+        $this->CheckPermission();
         echo json_encode($this->ShipOrderModel->gets());
     }
 
     //add new order
     public function actionAdd(){
+        $this->CheckPermission();
         $data = NULL;
         $data = json_decode(file_get_contents('php://input'));
         if(!$data || $data->items == NULL){
@@ -120,12 +123,14 @@ class ShipOrderController extends Controller
     }
 
     public function actionView_history(){
+        $this->CheckPermission();
         //var_dump($this->ShipOrderModel->get_history());
         $this->viewData['records'] = $this->ShipOrderModel->get_history();
         $this->render('history', $this->viewData);
     }
 
     public function actionCheck_reported(){
+        $this->CheckPermission();
         $data = NULL;
         $data = json_decode(file_get_contents('php://input'));
         if($data == NULL || $data->from ==null || $data->to == null){
@@ -148,12 +153,14 @@ class ShipOrderController extends Controller
     }
 
     public function actionReport_layout(){
+        $this->CheckPermission();
         $orders = $this->ShipOrderModel->gets();
         $this->viewData['orders'] = $orders;
         $this->render('report', $this->viewData);
     }
 
     public function actionReport_order(){
+        $this->CheckPermission();
         if(!$_POST){
             echo $a = "nopost";
             $this->viewData['data'] = $a;
@@ -302,6 +309,7 @@ class ShipOrderController extends Controller
     }
 
     public function actionDelete(){
+        $this->CheckPermission();
         $data = NULL;
         $data = json_decode(file_get_contents('php://input'));
         if($data != null && $data->id != null && $data->id >= 0){
@@ -313,15 +321,18 @@ class ShipOrderController extends Controller
     }
 
     public function actionGet_items_by_order($id){
+        $this->CheckPermission();
         echo json_encode($this->ShipOrderModel->get_item($id));
     }
 
     public function actionGet_order_by_id($id){
+        $this->CheckPermission();
         echo json_encode($this->ShipOrderModel->get($id));
     }
 
 	public function actionEdit($id = "")
 	{	
+        $this->CheckPermission();
 		$data = NULL;
         $data = json_decode(file_get_contents('php://input'));
         if(!$data || $data->info == NULL){
@@ -420,7 +431,7 @@ class ShipOrderController extends Controller
 	}
 
     public function actionExport($id){
-
+        $this->CheckPermission();
         $order = $this->ShipOrderModel->get_invoice($id)['order'];
         $items = $this->ShipOrderModel->get_invoice($id)['items'];
 

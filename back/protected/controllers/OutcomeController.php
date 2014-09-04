@@ -11,6 +11,7 @@ class OutcomeController extends Controller
 
 	public function actionIndex()
 	{
+        $this->CheckPermission();
 		$outcomes = $this->OutcomeModel->gets();
 		$this->viewData['outcomes'] = $outcomes;
 		$this->render('index', $this->viewData);
@@ -18,6 +19,7 @@ class OutcomeController extends Controller
 
 	public function actionAdd()
 	{
+        $this->CheckPermission();
 		if(!$_POST || !isset($_POST['info']))
 		{
 			$this->render('add');
@@ -31,6 +33,7 @@ class OutcomeController extends Controller
 	}
 
 	public function actionEdit($id){
+        $this->CheckPermission();
 		$outcome = $this->OutcomeModel->get($id);
 		if(!$_POST){			
 			$this->viewData['outcome'] = $outcome;
@@ -51,10 +54,12 @@ class OutcomeController extends Controller
 	}
 
 	public function actionDelete($id){
+        $this->CheckPermission();
 		$this->OutcomeModel->remove_outcome($id);
 	}
 
 	public function actionReport(){
+        $this->CheckPermission();
 		if(!$_POST){			
 			return;
 		}
