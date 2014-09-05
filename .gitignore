@@ -41,5 +41,5 @@ back/protected/runtime
 front/protected/runtime
 
 #config files
-back/protected/config
-front/protected/config
+back/protected/config/main.php
+front/protected/config/main.php
