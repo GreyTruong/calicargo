@@ -103,5 +103,30 @@ class AdminModel extends CFormModel {
         $command = Yii::app()->db->createCommand($sql);
         return $command->execute($args);
     }
+    
+    public function get_by_email($email) {
+        $sql = "SELECT *
+                FROM admins
+                WHERE email = :email
+                AND disabled = 0
+                AND deleted = 0";
+        $command = Yii::app()->db->createCommand($sql);
+        $command->bindParam(":email", $email);
+        return $command->queryRow();
+    }
+    public function add($title,$email,$password,$secret_key,$role) {
+        $time = time();
+        $sql = "INSERT INTO admins(title,email,`password`,role,secret_key,date_added) VALUES(:title,:email,:password,:role,:secret_key,:date_added)";
+        $command = Yii::app()->db->createCommand($sql);
+        $command->bindParam(":title", $title);
+         $command->bindParam(":role", $role);
+        $command->bindParam(":email", $email);
+        $command->bindParam(":password", $password);
+        $command->bindParam(":date_added", $time,PDO::PARAM_INT);
+        $command->bindParam(":secret_key", $secret_key);
+     
+        $command->execute();
+        return Yii::app()->db->lastInsertID;
+    }
 
 }

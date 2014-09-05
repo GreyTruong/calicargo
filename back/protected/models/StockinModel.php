@@ -14,8 +14,9 @@ class StockinModel extends CFormModel {
             $custom.= " AND s.deleted = :deleted";
             $params[] = array('name' => ':deleted', 'value' => $args['deleted'], 'type' => PDO::PARAM_INT);
         }
-        $sql = "SELECT *
+        $sql = "SELECT s.*,i.code
                 FROM stock_ins s
+                LEFT JOIN items as i ON i.id = s.item_id
                 WHERE 1
                 $custom";
         $command = Yii::app()->db->createCommand($sql);

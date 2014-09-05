@@ -1,57 +1,64 @@
+<section class="scrollable padder">
+    <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+        <li><a href="<?php echo HelperUrl::baseUrl() ?>"><i class="fa fa-home"> Homepage</i></a></li>
+        <li><a href="<?php echo HelperUrl::baseUrl() ?>Category"> Category</a></li>
 
-<div class="breadcrumbs" id="breadcrumbs">
-    <ul class="breadcrumb">
-        <li>
-            <i class="ace-icon fa fa-home home-icon"></i>
-            <a href="<?php echo HelperUrl::baseUrl(); ?>">Home</a>
-        </li>
-        <li>
-            <a href="<?php echo HelperUrl::baseUrl(); ?>category/">Category</a>
-        </li>
         <li class="active">Add</li>
     </ul>
-</div>
-
-<div class="page-content">
-    <div class="page-header">
-        <h1>
-            Add Category
-        </h1>
+    <div class="m-b-md">
+        <h3 class="m-b-none">Add Category</h3>
     </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <?php echo Helper::print_error($message); ?>
-            <form class="form-horizontal" method="post" enctype="multipart/form-data">
-                <fieldset>      
-               
+    <?php echo Helper::print_error($message); ?>
+    <?php echo Helper::print_success($message); ?>
+    <section class="panel panel-default">
+        <header class="panel-heading">
+            List Item
+        </header>
+        <div class="panel-body">
+            <form enctype="multipart/form-data" class="form-horizontal" method="post">
+
+                <?php foreach ($languages as $l): ?>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label ">Language</label>
+                        <div class="col-sm-8">
+                            <p class="form-control-static"><?php echo $l['title'] ?></p>
+                        </div>
+
+                    </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label no-padding-right">Title</label>
-                        <div class="col-sm-10">
-                            <input class="col-xs-10 col-sm-5" type="text" name="title" value="<?php if (isset($_POST['title'])) echo $_POST['title']; ?>">
-                        </div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label no-padding-right">Category Parent</label>
-                        <div class="col-sm-10">
-                            <select class="col-xs-10 col-sm-4" name="parent">
-                                <option value="0">(No Parent)</option>
-                                <?php foreach($root as $k=>$r):?>
-                                <option <?php echo isset($_POST['parent']) && $_POST['parent'] == $r['id'] ? 'selected' : ''?> value="<?php echo $r['id']?>"><?php echo $r['title']?></option>
-                                <?php endforeach;?>
-                            </select>
+                        <label class="col-sm-2 control-label ">Title</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="text" value="<?php echo isset($_POST[$l['id']]) ? $_POST[$l['id']]['title'] : ''?>" name="<?php echo $l['id'] ?>[title]" >
                         </div>
                     </div>
 
-                    <div class="clearfix form-actions">  
-                        <div class="col-md-offset-2 col-md-10">
-                            <button type="submit" class="btn btn-sm btn-primary">Add</button>
-                            <a href="<?php echo HelperUrl::baseUrl(); ?>category/" type="button" class="btn btn-sm">Close</a>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label ">Slug</label>
+                        <div class="col-sm-8">
+                            <input class="form-control" type="text" value="<?php echo isset($_POST[$l['id']]) ? $_POST[$l['id']]['slug'] : ''?>" name="<?php echo $l['id'] ?>[slug]" >
                         </div>
                     </div>
-                </fieldset>
+                    <div class="line line-dashed line-lg pull-in"></div>
+                <?php endforeach; ?>
+
+
+
+
+
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <button type="button" class="btn btn-default">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+
             </form>
         </div>
-    </div>
-</div>
+    </section>
+
+</section>
+
+
+

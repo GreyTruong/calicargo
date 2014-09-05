@@ -31,7 +31,7 @@ class HelperGlobal {
         //self::add_log(UserControl::getId(),$controller, $method,array('Hành động'=>'Truy cập','Dữ liệu'=>  self::$log_description));
         
         $role_name = UserControl::getRole();
-        $group = array('superadmin', 'admin', 'mod');
+        $group = array('superadmin', 'admin', 'view');
 
         //check group user has valid
         if (in_array($role_name, $group) === false)

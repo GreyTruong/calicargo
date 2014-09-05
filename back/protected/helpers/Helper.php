@@ -2,6 +2,11 @@
 
 class Helper {
 
+    public static function roler() {
+        $roler = array('superadmin' => 'Super Admin', 'admin' => 'Admin', 'viewer' => 'View');
+        return $roler;
+    }
+
     public static function image_types($type) {
         $image_type = array('image/png' => 'png', 'image/jpeg' => 'jpg', 'image/gif' => 'gif');
         return $image_type[$type];

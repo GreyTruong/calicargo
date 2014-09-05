@@ -12,7 +12,7 @@
             List Customer
         </header>
         <div class="table-responsive">
-            <table class="table table-striped b-t b-light">
+            <table id="users" class="table table-striped b-t b-light">
                 <thead>
                     <tr>          
                         <th>Email</th>

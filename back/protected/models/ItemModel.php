@@ -6,7 +6,7 @@ class ItemModel extends CFormModel {
         
     }
 
-    public function gets($args, $category, $page = 1, $ppp = 20) {
+    public function gets($args, $page = 1, $ppp = 20) {
         $page = ($page - 1) * $ppp;
         $custom = "";
         $params = array();
@@ -30,12 +30,12 @@ class ItemModel extends CFormModel {
                 $custom
                ORDER BY s.id DESC
                 LIMIT :page,:ppp";
-        
+
         //print_r($sql);die;
         //AND (s.category_id LIKE :category )
         //     $category = "%,$category,%";
 
-        
+
         $command = Yii::app()->db->createCommand($sql);
 
         // $command->bindParam(":category", $category, PDO::PARAM_INT);
@@ -50,7 +50,7 @@ class ItemModel extends CFormModel {
         return $command->queryAll();
     }
 
-    public function counts($args, $category) {
+    public function counts($args) {
 
         $custom = "";
         $params = array();
@@ -70,10 +70,8 @@ class ItemModel extends CFormModel {
                WHERE 1 
                 $custom
                 ";
-        // AND (vc.category_id LIKE :category)
-        //$category = "%,$category,%";
+       
         $command = Yii::app()->db->createCommand($sql);
-        //$command->bindParam(":category", $category, PDO::PARAM_INT);
         foreach ($params as $a)
             $command->bindParam($a['name'], $a['value'], $a['type']);
 
@@ -98,20 +96,16 @@ class ItemModel extends CFormModel {
             $params[] = array('name' => ':deleted', 'value' => $args['deleted'], 'type' => PDO::PARAM_INT);
         }
 
-        $sql = "SELECT s.*,ic.number,ic.img as color_image,im.data
+        $sql = "SELECT s.*
                 FROM items s
-                LEFT JOIN item_metas im ON s.id = im.taget_id AND im.type = :type
-                LEFT JOIN item_colors ic ON s.img = ic.id  AND ic.deleted = :ic_deleted
+                
                 WHERE 1 $custom
                ORDER BY s.id DESC
                 LIMIT :page,:ppp";
 
-        $ic_deleted = 0;
-        $type = 'product';
+      
         $command = Yii::app()->db->createCommand($sql);
-        $command->bindParam(":ic_deleted", $ic_deleted, PDO::PARAM_INT);
 
-        $command->bindParam(":type", $type, PDO::PARAM_INT);
         $command->bindParam(":page", $page, PDO::PARAM_INT);
         $command->bindParam(":ppp", $ppp, PDO::PARAM_INT);
         foreach ($params as $a)

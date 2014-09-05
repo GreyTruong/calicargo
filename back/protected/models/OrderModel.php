@@ -16,8 +16,9 @@ class OrderModel extends CFormModel {
             $params[] = array('name' => ':title', 'value' => "%$args[s]%",'type'=>PDO::PARAM_STR);
         }
 
-        $sql = "SELECT *
+        $sql = "SELECT s.*,c.name
                 FROM orders s
+                LEFT JOIN customers c ON c.id = s.customer_id
                 WHERE 1
                 $custom
                 ORDER BY id DESC
@@ -67,8 +68,9 @@ class OrderModel extends CFormModel {
     }
     
     public function get_by_id($id) {
-        $sql = "SELECT o.*
+        $sql = "SELECT o.*,c.email,c.name,c.phone,c.address
                 FROM orders as o
+                 LEFT JOIN customers c ON c.id = o.customer_id
                
                 WHERE o.id = :id
                 ";

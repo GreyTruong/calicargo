@@ -6,6 +6,7 @@ class StockinController extends Controller {
     private $message = array('success' => true, 'error' => array());
     private $validator;
     private $StockinModel;
+    private $ItemModel;
 
     public function init() {
 
@@ -14,6 +15,9 @@ class StockinController extends Controller {
 
         /* @var $StockinModel StockinModel */
         $this->StockinModel = new StockinModel();
+        
+        /* @var $ItemModel ItemModel */
+        $this->ItemModel = new ItemModel();
     }
 
     public function actions() {
@@ -49,7 +53,9 @@ class StockinController extends Controller {
     public function actionAdd() {
         if ($_POST)
             $this->do_add();
-
+        $args['deleted'] = 0;
+        $items = $this->ItemModel->get_alls($args, 1,100);
+        $this->viewData['items'] = $items;
         $this->viewData['message'] = $this->message;
         $this->render('add', $this->viewData);
     }
@@ -82,6 +88,9 @@ class StockinController extends Controller {
             $this->load_404();
         if ($_POST)
             $this->do_edit($stockin);
+        $args['deleted'] = 0;
+         $items = $this->ItemModel->get_alls($args, 1,100);
+        $this->viewData['items'] = $items;
 
         $this->viewData['message'] = $this->message;
         $this->viewData['stockin'] = $stockin;

@@ -31,18 +31,17 @@ class ItemController extends Controller {
     public function actionIndex($category = '', $p = 1) {
         $this->CheckPermission();
 
-        $category_details = $this->CategoryModel->get($category);
+    
         $ppp = Yii::app()->getParams()->itemAt('ppp');
         $s = isset($_GET['s']) ? $_GET['s'] : "";
         $s = strlen($s) > 2 ? $s : "";
         $args = array('s' => $s, 'deleted' => 0);
-        $all_items = $this->ItemModel->gets($args, $category, $p, $ppp);
+        $all_items = $this->ItemModel->gets($args, $p, $ppp);
         
-        $total = $this->ItemModel->counts($args, $category);
+        $total = $this->ItemModel->counts($args);
         //print_r($total);die;
         
 
-        $this->viewData['category'] = $category_details;
         $this->viewData['message'] = $this->message;
         $this->viewData['items'] = $all_items;
         $this->viewData['total'] = $total;

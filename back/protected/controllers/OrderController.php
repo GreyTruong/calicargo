@@ -59,7 +59,7 @@ class OrderController extends Controller {
 
         $order_details = $this->OrderModel->get_details($id);
 
-        
+        //print_r($order_details);die;
 
         $this->viewData['message'] = $this->message;
         $this->viewData['order_details'] = $order_details;

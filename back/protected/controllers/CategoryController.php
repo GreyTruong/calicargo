@@ -9,6 +9,7 @@ class CategoryController extends Controller {
     private $LanguageModel;
 
     public function init() {
+
         parent::init();
         /* @var $validator FormValidator */
         $this->validator = new FormValidator();
@@ -17,6 +18,7 @@ class CategoryController extends Controller {
         $this->CategoryModel = new CategoryModel();
         /* @var $LanguageModel LanguageModel */
         $this->LanguageModel = new LanguageModel();
+   
     }
 
     public function actions() {
@@ -53,15 +55,18 @@ class CategoryController extends Controller {
         $this->CheckPermission();
         if ($_POST)
             $this->do_add();
+        
+        
+        $args = array('deleted' => 0);
+        $languages = $this->LanguageModel->gets($args);
+        $this->viewData['languages'] = $languages;
+        $this->viewData['message'] = $this->message;
+        $this->render('add', $this->viewData);
     }
 
     private function do_add() {
-
         $data = $_POST;
-
-        $parent = $data['parent'];
-        unset($data['parent']);
-
+        $parent = 0;
         $args = array('deleted' => 0, 'parent' => $parent);
         $total_category = $this->CategoryModel->counts($args);
         $position = $total_category + 1;
@@ -196,51 +201,6 @@ class CategoryController extends Controller {
         echo $data_json;
     }
 
-//    public function actionPosition() {
-//        $data_new = $_POST['data_new'];
-//        $data_old = $_POST['data_old'];
-//        $args['deleted'] = 0;
-//        $args['type'] = 'category';
-//        $args['parent'] = $data_new['parent_id'];
-//        $position_old = $data_old['position'] + 1;
-//        $position_new = $data_new['position'] + 1;
-//        if ($data_new['parent_id'] == $data_old['parent_id']) {
-//
-//
-//
-//            if ($position_old < $position_new) {
-//                $args['small'] = $position_old;
-//                $args['larg'] = $position_new;
-//                $categories = $this->CategoryModel->gets($args, 1, 100);
-//                foreach ($categories as $s) {
-//                    $this->CategoryModel->update(array('position' => ($s['position'] - 1), 'id' => $s['id']));
-//                }
-//            } else {
-//                $args['small'] = $position_new;
-//                $args['larg'] = $position_old;
-//                $categories = $this->CategoryModel->gets($args, 1, 100);
-//                foreach ($categories as $s) {
-//                    $this->CategoryModel->update(array('position' => ($s['position'] + 1), 'id' => $s['id']));
-//                }
-//            }
-//            $this->CategoryModel->update(array('position' => $position_new, 'last_modified' => time(), 'id' => $data_old['id']));
-//        } else {
-//            $args = array('deleted' => 0, 'parent' => $args['parent'], 'type' => 'category');
-//            $total_category = $this->CategoryModel->counts($args);
-//
-//            $args['small'] = $data_new['position'] + 1;
-//            $args['larg'] = $total_category + 1;
-//
-//            $categories = $this->CategoryModel->gets($args, 1, 100);
-//            foreach ($categories as $s) {
-//                $this->CategoryModel->update(array('position' => ($s['position'] + 1), 'id' => $s['id']));
-//            }
-//            $this->position('delete', $data_old['parent_id'], $position_old);
-//            //$args_new = array('deleted' => 0, 'parent' => $args['parent'], 'type' => 'category');
-//            $this->CategoryModel->update(array('position' => ($position_new), 'parent' => $args['parent'], 'last_modified' => time(), 'id' => $data_old['id']));
-//        }
-//        die;
-//    }
 
     private function position($type, $parent, $position_old = 0, $position_new = 0) {
         if ($position_old == $position_new)

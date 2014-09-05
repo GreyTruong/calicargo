@@ -35,7 +35,7 @@
                     <?php foreach ($orders as $v): ?>
                         <tr>
                             <td><?php echo $v['id'] ?></td>
-                            <td><?php echo $v['customer_id'] ?></td>
+                            <td><?php echo $v['name'] ?></td>
                             <td><?php echo $v['grand_price'] ?></td>
                             <td><?php echo $v['status'] ?></td>
                             <td><?php echo date('H:i d/m/Y', $v['date_added']) ?></td>
