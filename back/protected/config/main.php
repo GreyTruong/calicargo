@@ -61,7 +61,7 @@ return array(
             'connectionString' => 'mysql:host=127.0.0.1;dbname=calicargo',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'alecsu',
+            'password' => '',
             'charset' => 'utf8',
         ),
         'errorHandler' => array(
