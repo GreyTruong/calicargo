@@ -9,7 +9,6 @@ class CategoryController extends Controller {
     private $LanguageModel;
 
     public function init() {
-
         parent::init();
         /* @var $validator FormValidator */
         $this->validator = new FormValidator();
@@ -18,7 +17,6 @@ class CategoryController extends Controller {
         $this->CategoryModel = new CategoryModel();
         /* @var $LanguageModel LanguageModel */
         $this->LanguageModel = new LanguageModel();
-   
     }
 
     public function actions() {

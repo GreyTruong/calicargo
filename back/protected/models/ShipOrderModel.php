@@ -90,6 +90,7 @@ class ShipOrderModel extends CFormModel
         $today = time();
         
         $sql = "INSERT INTO ship_orders(order_type, ship_type, sender_first_name, sender_middle_name, sender_last_name, ";
+
         $sql .= "sender_address, sender_city, sender_state, sender_zipcode, sender_country, sender_tel, sender_email, ";
         $sql .= "receiver_first_name, receiver_middle_name, receiver_last_name, receiver_address, receiver_city, receiver_state, ";
         $sql .= "receiver_zipcode, receiver_country, receiver_tel, receiver_email, box_qty, total_value, total_airport_fee, ";
@@ -154,6 +155,7 @@ class ShipOrderModel extends CFormModel
 
     public function saveItem($ship_order_id, $name, $description, $qty, $value, $airport_fee, $wt_lbs, $wt_kg){
         $sql = "INSERT INTO ship_items(ship_order_id, name, `description`, qty, wt_lbs, value, airport_fee, wt_kg, date_added)";
+
         $sql .= "VALUES (:ship_order_id, :name, :description, :qty, :wt_lbs, :value, :airport_fee, :wt_kg, :date_added)";
 
         $today = time();
@@ -298,5 +300,4 @@ class ShipOrderModel extends CFormModel
     {
         return 'ship_orders';
     }
-    
 }

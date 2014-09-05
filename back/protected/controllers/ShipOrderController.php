@@ -7,6 +7,7 @@ class ShipOrderController extends Controller
     private $ShipOrderModel;
 
     public function init() {    
+
         /* @var $ShipOrderModel ShipOrderModel*/
         $this->ShipOrderModel = new ShipOrderModel();
     }

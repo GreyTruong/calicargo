@@ -3230,3 +3230,6 @@ fieldset[disabled] .btn-gplus.active {
     display: inherit !important;
   }
 }
+.k-custom-panel{
+  padding: .5em;
+}

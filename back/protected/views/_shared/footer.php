@@ -34,12 +34,9 @@
   </script>
   <script src="<?php echo HelperUrl::baseUrl()?>js/scripts.js"></script>
   <script src="<?php echo HelperUrl::baseUrl()?>js/controller.js"></script>
-  
-  
   <script src="<?php echo HelperUrl::baseUrl()?>js/app.js"></script>
     <script src="<?php echo HelperUrl::baseUrl()?>js/app_thanh.js"></script>
   <script src="<?php echo HelperUrl::baseUrl()?>js/app.plugin.js"></script>
   <script src="<?php echo HelperUrl::baseUrl()?>js/slimscroll/jquery.slimscroll.min.js"></script>
-  
 </body>
 </html>

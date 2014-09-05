@@ -42,7 +42,6 @@
         </div>
         <footer class="panel-footer">
             <div class="row">
-
                 <div class="col-sm-4 text-right text-center-xs">                
                     <?php $this->renderFile(Yii::app()->basePath . "/views/_shared/paging.php", array('total' => $total, 'paging' => $paging)); ?>
                 </div>

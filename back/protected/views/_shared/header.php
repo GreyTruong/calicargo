@@ -22,6 +22,7 @@
     <script src="<?php echo HelperUrl::baseUrl()?>js/ie/respond.min.js"></script>
     <script src="<?php echo HelperUrl::baseUrl()?>js/ie/excanvas.js"></script>
   <![endif]-->
+
 </head>
 <body>
   <section class="vbox">

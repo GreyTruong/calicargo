@@ -1,0 +1,201 @@
+/*==========================================================================================================================================
+/*==========================================================================================================================================
+	Template Colors Setup
+============================================================================================================================================
+============================================================================================================================================*/
+
+
+
+/*==========================================================*/
+/*========== F O N T    C O L O R    S K I N S =============*/
+/*==========================================================*/
+
+/*White Font*/
+h1.color-white, h2.color-white, h3.color-white, h4.color-white, h5.color-white, h6.color-white, h4.style-1.color-white,
+.sub-title.color-white, .sub-title-2.color-white, .counter-chart h5.color-white, .tp-caption.color-white, 
+p.color-white, .color-white, 
+.button-outline.color-white, .button-small.color-white, .button-regular.color-white, .button-large.color-white, .hover-color-white:hover, 
+.button-outline.hover-color-white:hover, .button-small.hover-color-white:hover, .button-regular.hover-color-white:hover, .button-large.hover-color-white:hover {
+    color: #ffffff!important;
+}
+
+/*LightGray Font*/
+h1.color-lightgray, h2.color-lightgray, h3.color-lightgray, h4.color-lightgray, h5.color-lightgray, h6.color-lightgray, h4.style-1.color-lightgray,
+.sub-title.color-lightgray, .sub-title-2.color-lightgray, .counter-chart h5.color-lightgray, .tp-caption.color-lightgray, 
+p.color-lightgray, .color-lightgray, 
+.button-outline.color-lightgray, .button-small.color-lightgray, .button-regular.color-lightgray, .button-large.color-lightgray, .hover-color-lightgray:hover, 
+.button-outline.hover-color-lightgray:hover, .button-small.hover-color-lightgray:hover, .button-regular.hover-color-lightgray:hover, .button-large.hover-color-lightgray:hover {
+    color: #eef3f3!important;
+}
+
+/*Black Font*/
+h1.color-black, h2.color-black, h3.color-black, h4.color-black, h5.color-black, h6.color-black, h4.style-1.color-black,
+.sub-title.color-black, .sub-title-2.color-black, .counter-chart h5.color-black, .tp-caption.color-black, 
+p.color-black, .color-black, 
+.button-outline.color-black, .button-small.color-black, .button-regular.color-black, .button-large.color-black, .hover-color-black:hover, 
+.button-outline.hover-color-black:hover, .button-small.hover-color-black:hover, .button-regular.hover-color-black:hover, .button-large.hover-color-black:hover {
+    color: #000000!important;
+}
+
+/*SemiBlack Font*/
+h1.color-semiblack, h2.color-semiblack, h3.color-semiblack, h4.color-semiblack, h5.color-semiblack, h6.color-semiblack, h4.style-1.color-semiblack,
+.sub-title.color-semiblack, .sub-title-2.color-semiblack, .counter-chart h5.color-semiblack, .tp-caption.color-semiblack, 
+p.color-semiblack, .color-semiblack, 
+.button-outline.color-semiblack, .button-small.color-semiblack, .button-regular.color-semiblack, .button-large.color-semiblack, .hover-color-semiblack:hover, 
+.button-outline.hover-color-semiblack:hover, .button-small.hover-color-semiblack:hover, .button-regular.hover-color-semiblack:hover, .button-large.hover-color-semiblack:hover {
+    color: #333333!important;
+}
+
+/*Orange Font*/
+h1.color-orange, h2.color-orange, h3.color-orange, h4.color-orange, h5.color-orange, h6.color-orange, h4.style-1.color-orange,
+.sub-title.color-orange, .sub-title-2.color-orange, .counter-chart h5.color-orange, .tp-caption.color-orange, 
+p.color-orange, .color-orange, 
+.button-outline.color-orange, .button-small.color-orange, .button-regular.color-orange, .button-large.color-orange, .hover-color-orange:hover, 
+.button-outline.hover-color-orange:hover, .button-small.hover-color-orange:hover, .button-regular.hover-color-orange:hover, .button-large.hover-color-orange:hover {
+    color: #f7941e!important;
+}
+/*Blue Font*/
+h1.color-blue, h2.color-blue, h3.color-blue, h4.color-blue, h5.color-blue, h6.color-blue, h4.style-1.color-blue,
+.sub-title.color-blue, .sub-title-2.color-blue, .counter-chart h5.color-blue, .tp-caption.color-blue, 
+p.color-blue, .color-blue, 
+.button-outline.color-blue, .button-small.color-blue, .button-regular.color-blue, .button-large.color-blue, .hover-color-blue:hover, 
+.button-outline.hover-color-blue:hover, .button-small.hover-color-blue:hover, .button-regular.hover-color-blue:hover, .button-large.hover-color-blue:hover {
+    color: #3e347f!important;
+}
+
+
+/*======================================================================*/
+/*========== B A C K G R O U N D    C O L O R    S K I N S =============*/
+/*======================================================================*/
+
+/*White Background*/
+h1.bg-white, h2.bg-white, h3.bg-white, h4.bg-white, h5.bg-white, h6.bg-white, h4.style-1.bg-white, h4.style-1.color-white span:after, 
+.sub-title.bg-white, .sub-title-2.bg-white, .counter-chart h5.bg-white, .tp-caption.bg-white, 
+p.bg-white, .bg-white,.grid-row.bg-white, 
+.button-small.bg-white, .button-regular.bg-white, .button-large.bg-white, .hover-bg-white:hover, 
+.button-outline.hover-bg-white:hover, .button-small.hover-bg-white:hover, .button-regular.hover-bg-white:hover, .button-large.hover-bg-white:hover {
+    background-color: #ffffff!important;
+}
+
+/*LightGray Background*/
+h1.bg-lightgray, h2.bg-lightgray, h3.bg-lightgray, h4.bg-lightgray, h5.bg-lightgray, h6.bg-lightgray, h4.style-1.bg-lightgray, h4.style-1.color-lightgray span:after, 
+.sub-title.bg-lightgray, .sub-title-2.bg-lightgray, .counter-chart h5.bg-lightgray, .tp-caption.bg-lightgray, 
+p.bg-lightgray, .bg-lightgray, .grid-row.bg-lightgray, 
+.button-small.bg-lightgray, .button-regular.bg-lightgray, .button-large.bg-lightgray, .hover-bg-lightgray:hover, 
+.button-outline.hover-bg-lightgray:hover, .button-small.hover-bg-lightgray:hover, .button-regular.hover-bg-lightgray:hover, .button-large.hover-bg-lightgray:hover {
+    background-color: #eef3f3!important;
+}
+
+/*Black Background*/
+h1.bg-black, h2.bg-black, h3.bg-black, h4.bg-black, h5.bg-black, h6.bg-black, h4.style-1.bg-black, h4.style-1.color-black span:after, 
+.sub-title.bg-black, .sub-title-2.bg-black, .counter-chart h5.bg-black, .tp-caption.bg-black, 
+p.bg-black, .bg-black, .grid-row.bg-black, 
+.button-small.bg-black, .button-regular.bg-black, .button-large.bg-black, .hover-bg-black:hover, 
+.button-outline.hover-bg-black:hover, .button-small.hover-bg-black:hover, .button-regular.hover-bg-black:hover, .button-large.hover-bg-black:hover {
+    background-color: #000000!important;
+}
+
+/*SemiBlack Background*/
+h1.bg-semiblack, h2.bg-semiblack, h3.bg-semiblack, h4.bg-semiblack, h5.bg-semiblack, h6.bg-semiblack, h4.style-1.bg-semiblack, h4.style-1.color-semiblack span:after, 
+.sub-title.bg-semiblack, .sub-title-2.bg-semiblack, .counter-chart h5.bg-semiblack, .tp-caption.bg-semiblack, 
+p.bg-semiblack, .bg-semiblack, .grid-row.bg-semiblack, 
+.button-small.bg-semiblack, .button-regular.bg-semiblack, .button-large.bg-semiblack, .hover-bg-semiblack:hover, 
+.button-outline.hover-bg-semiblack:hover, .button-small.hover-bg-semiblack:hover, .button-regular.hover-bg-semiblack:hover, .button-large.hover-bg-semiblack:hover {
+    background-color: #333333!important;
+}
+
+/*DarkBlue Background*/
+h1.bg-darkblue, h2.bg-darkblue, h3.bg-darkblue, h4.bg-darkblue, h5.bg-darkblue, h6.bg-darkblue, h4.style-1.bg-darkblue, h4.style-1.color-darkblue span:after, 
+.sub-title.bg-darkblue, .sub-title-2.bg-darkblue, .counter-chart h5.bg-darkblue, .tp-caption.bg-darkblue, 
+p.bg-darkblue, .bg-darkblue, .grid-row.bg-darkblue, 
+.button-small.bg-darkblue, .button-regular.bg-darkblue, .button-large.bg-darkblue, .hover-bg-darkblue:hover, 
+.button-outline.hover-bg-darkblue:hover, .button-small.hover-bg-darkblue:hover, .button-regular.hover-bg-darkblue:hover, .button-large.hover-bg-darkblue:hover {
+    background-color: #252934!important;
+}
+/*Orage Background*/
+h1.bg-orange, h2.bg-orange, h3.bg-orange, h4.bg-orange, h5.bg-orange, h6.bg-orange, h4.style-1.bg-orange, h4.style-1.color-orange span:after, 
+.sub-title.bg-orange, .sub-title-2.bg-orange, .counter-chart h5.bg-orange, .tp-caption.bg-orange, 
+p.bg-orange, .bg-orange, .grid-row.bg-orange, 
+.button-small.bg-orange, .button-regular.bg-orange, .button-large.bg-orange, .hover-bg-orange:hover, 
+.button-outline.hover-bg-orange:hover, .button-small.hover-bg-orange:hover, .button-regular.hover-bg-orange:hover, .button-large.hover-bg-orange:hover {
+    background-color: #f7941e!important;
+}
+
+/*==============================================================*/
+/*========== B O R D E R    C O L O R    S K I N S =============*/
+/*==============================================================*/
+
+/*White Border*/
+h1.border-white, h2.border-white, h3.border-white, h4.border-white, h5.border-white, h6.border-white, h4.style-1.border-white, 
+.sub-title.border-white, .sub-title-2.border-white, .counter-chart h5.border-white, .tp-caption.border-white, 
+p.border-white, .border-white, .grid-row.border-white, 
+.button-outline.border-white, .button-small.border-white, .button-regular.border-white, .button-large.border-white, .hover-border-white:hover, 
+.button-outline.hover-border-white:hover, .button-small.hover-border-white:hover, .button-regular.hover-border-white:hover, .button-large.hover-border-white:hover {
+    border-color: #ffffff!important;
+}
+/*Blue Border*/
+h1.border-blue, h2.border-blue, h3.border-blue, h4.border-blue, h5.border-blue, h6.border-blue, h4.style-1.border-blue, 
+.sub-title.border-blue, .sub-title-2.border-blue, .counter-chart h5.border-blue, .tp-caption.border-blue, 
+p.border-blue, .border-blue, .grid-row.border-blue, 
+.button-outline.border-blue, .button-small.border-blue, .button-regular.border-blue, .button-large.border-blue, .hover-border-blue:hover, 
+.button-outline.hover-border-blue:hover, .button-small.hover-border-blue:hover, .button-regular.hover-border-blue:hover, .button-large.hover-border-blue:hover {
+    border-color: #3e347f!important;
+}
+/*LightGray Border*/
+h1.border-lightgray, h2.border-lightgray, h3.border-lightgray, h4.border-lightgray, h5.border-lightgray, h6.border-lightgray, h4.style-1.border-lightgray, 
+.sub-title.border-lightgray, .sub-title-2.border-lightgray, .counter-chart h5.border-lightgray, .tp-caption.border-lightgray, 
+p.border-lightgray, .border-lightgray, .grid-row.border-lightgray, 
+.button-outline.border-lightgray, .button-small.border-lightgray, .button-regular.border-lightgray, .button-large.border-lightgray, .hover-border-lightgray:hover, 
+.button-outline.hover-border-lightgray:hover, .button-small.hover-border-lightgray:hover, .button-regular.hover-border-lightgray:hover, .button-large.hover-border-lightgray:hover {
+    border-color: #eef3f3!important;
+}
+
+/*Black Border*/
+h1.border-black, h2.border-black, h3.border-black, h4.border-black, h5.border-black, h6.border-black, h4.style-1.border-black, 
+.sub-title.border-black, .sub-title-2.border-black, .counter-chart h5.border-black, .tp-caption.border-black, 
+p.border-black, .border-black, .grid-row.border-black, 
+.button-outline.border-black, .button-small.border-black, .button-regular.border-black, .button-large.border-black, .hover-border-black:hover, 
+.button-outline.hover-border-black:hover, .button-small.hover-border-black:hover, .button-regular.hover-border-black:hover, .button-large.hover-border-black:hover {
+    border-color: #000000!important;
+}
+
+/*SemiBlack Border*/
+h1.border-semiblack, h2.border-semiblack, h3.border-semiblack, h4.border-semiblack, h5.border-semiblack, h6.border-semiblack, h4.style-1.border-semiblack, 
+.sub-title.border-semiblack, .sub-title-2.border-semiblack, .counter-chart h5.border-semiblack, .tp-caption.border-semiblack, 
+p.border-semiblack, .border-semiblack, .grid-row.border-semiblack, 
+.button-outline.border-semiblack, .button-small.border-semiblack, .button-regular.border-semiblack, .button-large.border-semiblack, .hover-border-semiblack:hover, 
+.button-outline.hover-border-semiblack:hover, .button-small.hover-border-semiblack:hover, .button-regular.hover-border-semiblack:hover, .button-large.hover-border-semiblack:hover {
+    border-color: #333333!important;
+}
+
+/*Orange Border*/
+h1.border-orange, h2.border-orange, h3.border-orange, h4.border-orange, h5.border-orange, h6.border-orange, h4.style-1.border-orange, 
+.sub-title.border-orange, .sub-title-2.border-orange, .counter-chart h5.border-orange, .tp-caption.border-orange, 
+p.border-orange, .border-orange, .grid-row.border-orange, 
+.button-outline.border-orange, .button-small.border-orange, .button-regular.border-orange, .button-large.border-orange, .hover-border-orange:hover, 
+.button-outline.hover-border-orange:hover, .button-small.hover-border-orange:hover, .button-regular.hover-border-orange:hover, .button-large.hover-border-orange:hover {
+    border-color: #f7941e!important;
+}
+/*Green Pack*/
+h1.bg-green, h2.bg-green, h3.bg-green, h4.bg-green, h5.bg-green, h6.bg-green, h4.style-1.bg-green, h4.style-1.color-white span:after, 
+.sub-title.bg-green, .sub-title-2.bg-green, .counter-chart h5.bg-green, .tp-caption.bg-green, 
+p.bg-green, .bg-green,.grid-row.bg-green, 
+.button-small.bg-green, .button-regular.bg-green, .button-large.bg-green, .hover-bg-green:hover, 
+.button-outline.hover-bg-green:hover, .button-small.hover-bg-green:hover, .button-regular.hover-bg-green:hover, .button-large.hover-bg-green:hover {
+    background-color: #3bbe68 !important; 
+}
+h1.border-green, h2.border-green, h3.border-green, h4.border-green, h5.border-green, h6.border-green, h4.style-1.border-green, 
+.sub-title.border-green, .sub-title-2.border-green, .counter-chart h5.border-green, .tp-caption.border-green, 
+p.border-green, .border-green, .grid-row.border-green, 
+.button-outline.border-green, .button-small.border-green, .button-regular.border-green, .button-large.border-green, .hover-border-green:hover, 
+.button-outline.hover-border-green:hover, .button-small.hover-border-green:hover, .button-regular.hover-border-green:hover, .button-large.hover-border-green:hover {
+    border-color: #3bbe68 !important;
+}
+h1.color-green, h2.color-green, h3.color-green, h4.color-green, h5.color-green, h6.color-green, h4.style-1.color-green,
+.sub-title.color-green, .sub-title-2.color-green, .counter-chart h5.color-green, .tp-caption.color-green, 
+p.color-green, .color-green, 
+.button-outline.color-green, .button-small.color-green, .button-regular.color-green, .button-large.color-green, .hover-color-green:hover, 
+.button-outline.hover-color-green:hover, .button-small.hover-color-green:hover, .button-regular.hover-color-green:hover, .button-large.hover-color-green:hover {
+    color: #000000!important;
+}
+

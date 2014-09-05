@@ -22,7 +22,7 @@
           <i class="fa fa-info-sign text-muted" data-toggle="tooltip" data-placement="bottom" data-title="ajax to load the data."></i> 
         </header>
         <div class="table-responsive">
-          <table class="table table-striped m-b-none" data-ride="datatables">
+          <table class="table table-striped m-b-none">
             <thead>
               <tr>              	
                 <th ng-repeat="c in columns">{{c}}</th>

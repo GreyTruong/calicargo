@@ -88,7 +88,6 @@ class CategoryModel extends CFormModel {
         foreach ($params as $a)
             $command->bindParam($a['name'], $a['value'], $a['type']);
 
-
         return $command->queryAll();
     }
 
@@ -131,6 +130,7 @@ class CategoryModel extends CFormModel {
                 FROM categories vc
                 LEFT JOIN category_metas cm ON vc.id = cm.category_id AND cm.language = 1
                 WHERE vc.id = :id
+
                 ";
         $command = Yii::app()->db->createCommand($sql);
         $command->bindParam(":id", $id, PDO::PARAM_INT);
@@ -231,5 +231,4 @@ class CategoryModel extends CFormModel {
 
         return $command->queryAll();
     }
-
 }
