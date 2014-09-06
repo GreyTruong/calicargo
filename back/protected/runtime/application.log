@@ -79,3 +79,1587 @@ Stack trace:
 REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
 HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
 ---
+2014/09/06 14:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/
+---
+2014/09/06 14:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/
+---
+2014/09/06 14:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/
+---
+2014/09/06 14:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/
+---
+2014/09/06 14:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/
+---
+2014/09/06 14:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/
+---
+2014/09/06 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:47:24 [error] [php] Undefined index: id (E:\xampp\htdocs\calicargo\back\protected\views\category\edit.php:18)
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CController.php(870): CategoryController->renderFile()
+#1 E:\xampp\htdocs\calicargo\framework\web\CController.php(783): CategoryController->renderPartial()
+#2 E:\xampp\htdocs\calicargo\back\protected\controllers\CategoryController.php(148): CategoryController->render()
+#3 unknown(0): CategoryController->actionEdit()
+#4 E:\xampp\htdocs\calicargo\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 E:\xampp\htdocs\calicargo\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 E:\xampp\htdocs\calicargo\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 E:\xampp\htdocs\calicargo\framework\web\CController.php(287): CategoryController->runAction()
+#8 E:\xampp\htdocs\calicargo\framework\web\CController.php(266): CategoryController->runActionWithFilters()
+#9 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(283): CategoryController->run()
+#10 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\calicargo\back\index.php(14): CWebApplication->run()
+REQUEST_URI=/calicargo/back/category/edit/id/2/?s=1
+in E:\xampp\htdocs\calicargo\back\protected\views\category\edit.php (18)
+in E:\xampp\htdocs\calicargo\back\protected\controllers\CategoryController.php (148)
+in E:\xampp\htdocs\calicargo\back\index.php (14)
+2014/09/06 14:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/edit/id/2/?s=1
+---
+2014/09/06 14:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/Category
+---
+2014/09/06 14:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/Category
+---
+2014/09/06 14:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/Category
+---
+2014/09/06 14:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/Category
+---
+2014/09/06 14:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/Category
+---
+2014/09/06 14:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/Category
+---
+2014/09/06 14:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 14:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 14:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 14:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 14:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 14:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:57:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 14:58:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/?s=1
+---
+2014/09/06 15:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/ship-order-management
+---
+2014/09/06 15:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/ship-order-management
+---
+2014/09/06 15:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/ship-order-management
+---
+2014/09/06 15:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/ship-order-management
+---
+2014/09/06 15:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/ship-order-management
+---
+2014/09/06 15:17:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/ship-order-management
+---
+2014/09/06 15:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category
+---
+2014/09/06 15:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category
+---
+2014/09/06 15:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category
+---
+2014/09/06 15:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category
+---
+2014/09/06 15:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category
+---
+2014/09/06 15:17:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category
+---
+2014/09/06 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 15:17:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/category/add/
+---
+2014/09/06 15:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/customer
+---
+2014/09/06 15:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer
+---
+2014/09/06 15:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer
+---
+2014/09/06 15:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer
+---
+2014/09/06 15:22:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/customer
+---
+2014/09/06 15:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer
+---
+2014/09/06 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.css.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('css/bootstrap.c...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/calicargo/back/customer/edit/id/1
+---
+2014/09/06 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular.min....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer/edit/id/1
+---
+2014/09/06 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-sanitize.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-sani...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-sanitize.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer/edit/id/1
+---
+2014/09/06 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.10.2.min.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery-1.10....')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://localhost/calicargo/back/customer/edit/id/1
+---
+2014/09/06 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-resource.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-reso...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-resource.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer/edit/id/1
+---
+2014/09/06 15:22:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/angular-route.min.js.map".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('js/angular-rout...')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/js/angular-route.min.js.map
+HTTP_REFERER=http://localhost/calicargo/back/customer/edit/id/1
+---
+2014/09/06 15:38:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "adim/add".' in E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\xampp\htdocs\calicargo\framework\web\CWebApplication.php(142): CWebApplication->runController('adim/add')
+#1 E:\xampp\htdocs\calicargo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\calicargo\back\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/calicargo/back/adim/add
+---

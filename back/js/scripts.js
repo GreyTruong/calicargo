@@ -4,7 +4,7 @@
     "use strict";
     $(document).ready(function() {
         /*******Form Validator***********/
-        $('#order').bootstrapValidator(order_validate_options);
+//        $('#order').bootstrapValidator(order_validate_options);
 
         $(".delete-row").click(function(){
         var id = $(this).attr("id");

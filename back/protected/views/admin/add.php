@@ -16,21 +16,21 @@
             List Item
         </header>
         <div class="panel-body">
-            <form enctype="multipart/form-data" class="form-horizontal" method="post">
+            <form enctype="multipart/form-data" action="#" data-validate="parsley" class="form-horizontal" method="post">
 
 
 
                 <div class="form-group">
                     <label class="col-sm-2 control-label ">Username</label>
                     <div class="col-sm-8">
-                        <input class="form-control" type="text" autocomplete="off" name="title" value="<?php if (isset($_POST['title'])) echo $_POST['title']; ?>">
+                        <input class="form-control" data-required="true" type="text" autocomplete="off" name="title" value="<?php if (isset($_POST['title'])) echo $_POST['title']; ?>">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="col-sm-2 control-label ">Email</label>
                     <div class="col-sm-8">
-                        <input class="form-control" type="text" autocomplete="off" name="email" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>" >
+                        <input class="form-control" data-type="email" data-required="true" type="text" autocomplete="off" name="email" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>" >
                     </div>
                 </div>
                 <div class="form-group">

@@ -15,7 +15,7 @@
             List Item
         </header>
         <div class="panel-body">
-            <form enctype="multipart/form-data" class="form-horizontal" method="post">
+            <form enctype="multipart/form-data" action="#" class="form-horizontal" method="post">
 
                 <?php foreach ($languages as $l): ?>
                     <div class="form-group">
@@ -29,24 +29,20 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label ">Title</label>
                         <div class="col-sm-8">
-                            <input class="form-control" type="text" value="<?php echo isset($_POST[$l['id']]) ? $_POST[$l['id']]['title'] : ''?>" name="<?php echo $l['id'] ?>[title]" >
+                            <input class="form-control" <?php echo $l['id'] == 1 ? '' : '' ?> 
+                                   type="text" value="<?php echo isset($_POST[$l['id']]) ? $_POST[$l['id']]['title'] : '' ?>" 
+                                   name="<?php echo $l['id'] ?>[title]" >
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label ">Slug</label>
                         <div class="col-sm-8">
-                            <input class="form-control" type="text" value="<?php echo isset($_POST[$l['id']]) ? $_POST[$l['id']]['slug'] : ''?>" name="<?php echo $l['id'] ?>[slug]" >
+                            <input class="form-control" type="text" value="<?php echo isset($_POST[$l['id']]) ? $_POST[$l['id']]['slug'] : '' ?>" name="<?php echo $l['id'] ?>[slug]" >
                         </div>
                     </div>
                     <div class="line line-dashed line-lg pull-in"></div>
                 <?php endforeach; ?>
-
-
-
-
-
-
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-2">
                         <button type="button" class="btn btn-default">Cancel</button>

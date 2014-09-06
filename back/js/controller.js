@@ -98,6 +98,7 @@ app.controller("AddShipOrderCtrl", function ($rootScope, $scope, $http, utility,
     
     $scope.sendOrder = function(){        
         $scope.isSubmitted = true;
+        $('#order').bootstrapValidator(order_validate_options);
         var is_valid = $('#order').data('bootstrapValidator').isValid();
         if(!is_valid){
             var first_error_elem = $('#order').data('bootstrapValidator').validate()['$invalidFields'][0];

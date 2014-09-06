@@ -1,4 +1,6 @@
 //bootstrap validator options - validate order form (for create and edit shipping order)
+
+
 var order_validate_options = {
     message: 'This value is not valid',   
     fields: {
@@ -553,3 +555,5 @@ app.filter('startFrom', function() {
         return input.slice(start);
     }
 });
+
+    

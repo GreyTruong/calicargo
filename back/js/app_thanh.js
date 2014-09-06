@@ -87,6 +87,7 @@ function init_js() {
 function nestable() {
     if ($('#nestable').length <= 0)
         return false;
+    
     var ele;
     var data_old;
     var parent;

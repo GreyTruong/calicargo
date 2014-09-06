@@ -143,6 +143,7 @@ class CategoryController extends Controller {
         $args = array('deleted' => 0);
         $languages = $this->LanguageModel->gets($args);
         $this->viewData['languages'] = $languages;
+        $this->viewData['id'] = $id;
         $this->viewData['message'] = $this->message;
         $this->viewData['category'] = $category;
         $this->render('edit', $this->viewData);

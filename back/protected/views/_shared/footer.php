@@ -33,6 +33,7 @@
         orderProvider.setViewOrderTitle("Shipping Order Management");
     });
 </script>
+<script src="<?php echo HelperUrl::baseUrl() ?>js/parsley/parsley.min.js"></script>
 <script src="<?php echo HelperUrl::baseUrl() ?>js/scripts.js"></script>
 <script src="<?php echo HelperUrl::baseUrl() ?>js/controller.js"></script>
 <script src="<?php echo HelperUrl::baseUrl() ?>js/app.js"></script>

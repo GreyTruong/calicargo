@@ -15,7 +15,7 @@
             List Item
         </header>
         <div class="panel-body">
-            <form enctype="multipart/form-data" class="form-horizontal" method="post">
+            <form enctype="multipart/form-data" action="#"  class="form-horizontal" method="post">
 
                 <?php foreach ($languages as $l): ?>
                     <div class="form-group">
