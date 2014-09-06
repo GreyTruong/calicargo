@@ -33,6 +33,7 @@
 
     //Outcome form validation
     $('.outcome-form').bootstrapValidator({
+        
         message: 'This value is not valid',   
         fields: {
             type:{
@@ -57,6 +58,7 @@
             },
         }
     }).on('success.form.bv', function(e) {
+        
     // Prevent form submission
     e.preventDefault();
 
